@@ -1,0 +1,97 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    margin: 0%;
+}
+
+h1{
+    font-size: 50px;
+}
+h1 > span{
+    color: #FFC23C;
+}
+p{
+    padding-bottom: 20px;
+}
+h2{
+    font-size: 40px;
+}
+.col-5{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: 100%;
+}
+
+
+.col-5 img{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.bg-image{
+    
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+   
+}
+section{
+    height: 550px;
+}
+
+.button{   
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    background: linear-gradient(40deg, #fd8c7d,#f33c24);
+    margin-top: 25px;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.button:hover{
+    color: whitesmoke;
+    background: linear-gradient(40deg, #f33c24,#fd8c7d);   
+}
+.r{
+    padding: 10px 40px;
+    text-transform: uppercase;
+}
+
+.dream_bg{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.Exprince-Area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.boxshadow{
+    height: 70%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+#fullStack{
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(40deg,#f7b8b0,#f33c24);
+    border-image-slice: 1;
+    background-color: white;
+}
+#BabyDeveloper{
+    border-left: 7px solid;
+    border-image: linear-gradient(40deg,#6d5fe4,#0b08a5);
+    border-image-slice: 1;
+    background-color: white;
+}
+.boxshadow h3{
+    color: #FFC23C;
+}
+footer p{
+    text-align: center;
+}
